@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="js/script.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<h3>VOLUME &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="home.html"><span class="glyphicon glyphicon-home" ></span></a></h3>
+
+	<div class="container-fluid">
+		<div class="row content">
+
+
+			<div class="col-sm-4" id="cube" >
+				<form>
+				  <div class="form-group">
+				  	<div>CUBE</div>
+				    <label for="s">edge:</label>
+				    <input type="number" class="form-control" id="s">
+				  </div>
+				  
+				  <button type="submit" class="btn btn-default" onclick="outputCube();">Submit</button>
+				</form>
+				<hr>
+				<button class="btn-primary" onclick="show()">show</button>
+				
+			</div>
+
+
+			<div class="col-sm-4" id="cylinder">
+				<form>
+					<div class="form-group">
+						<div>CYLINDER</div>
+					    <label for="r">radius:</label>
+					    <input type="number" class="form-control" id="r">
+					</div>
+					<div class="form-group">
+					    <label for="h">height &nbsp&nbsp:</label>
+					    <input type="number" class="form-control" id="h">
+					</div>
+					<button type="submit" class="btn btn-default" onclick="outputCylinder();">Submit</button>
+				</form>
+				<hr>
+				<button class="btn-primary" onclick="show()">show</button>
+				
+			</div>
+
+
+			<div class="col-sm-4" id="sphere">
+				<form>
+				  <div class="form-group">
+					<div>SPHERE</div>
+				    <label for="rad">radius:</label>
+				    <input type="number" class="form-control" id="rad">
+				  </div>
+				  
+				  <button type="submit" class="btn btn-default" onclick="outputSphere();">Submit</button>
+				</form>
+				<hr>
+				<button class="btn-primary" onclick="show()">show</button>
+				
+
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="output"></div>
+	
+<script src="js/script.js"></script>
+<script src="js/ajax-utils.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/styles.css">
+</body>
+</html>

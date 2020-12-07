@@ -1,0 +1,43 @@
+h1{
+	text-align: center;
+	background-color: #6C747F;
+	font-family: Garamond;
+	font-weight: bold;
+}
+#b{
+	text-align:  center;
+}
+
+body{
+	background-color: #5D636B;
+}
+#leftpane{
+	border: 2px solid black;
+	font-size: 20px;
+	background-color: white;
+	padding: 5px;
+	margin-left: 15px;}
+form{
+	background-color: #EFF2F6;
+	padding: 10px;
+	
+}
+
+a>div:hover,a>div:active{
+	background-color: #5D636B;
+	
+}
+
+
+
+#leftpane>div{
+	background-color:gray; 
+	font-weight: bold;
+}
+@media(max-width: 640px){
+	.jumbotron{
+		width: 100%;
+	}
+
+
+
