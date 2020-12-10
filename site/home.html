@@ -11,6 +11,7 @@
 	
 </head>
 <body>
+
 	<div class="container-fluid">
 		<div class="jumbotron">
 		  <h1>Engineering Calculator</h1>
@@ -18,13 +19,15 @@
 		  <p>An advanced version of regular scientific
 calculator, but with a touch of IoT.</p>
 		</div>
+		<hr>
 	</div>
+
 	
 	<div class="container-fluid text-center">
 		<div class="row content">
 			<div id="leftnav">
 				<div class="col-sm-2" id="leftpane">
-					<div>CALCULATIONS</div>
+					<div>QUICK PANE</div>
 					<ul>
 						<li><a href="coulomb.html"><div>Coulomb's Law</div></a></li>
 						<li><a href="acceleration.html"><div>Acceleration</div></a></li>
@@ -78,8 +81,8 @@ calculator, but with a touch of IoT.</p>
 
 
 			</div>
-			<div class="col-sm-4 text-center">
-				<form action="/action_page.php">
+			<div class="col-sm-5 text-center">
+				<form action="/action_page.php" style="margin: 10px">
 				  <div class="form-group">
 				    <label for="email">Email address:</label>
 				    <input type="email" class="form-control" id="email">
@@ -93,20 +96,41 @@ calculator, but with a touch of IoT.</p>
 				  </div>
 				  <button type="submit" class="btn btn-default">Submit</button>
 				</form>
-
 				
 			</div>
+
 			
+		</div>
+		<hr>
+		
+	</div>
+	<div class="container-fluid" id="tabs">
+			<div class="col-sm-4">
+				<img src="images/math.png" style="width: 175px ">
+			</div>
+			<div class="col-sm-4">
+				<img src="images/physics.png" style="width: 175px">
+			</div>
+			<div class="col-sm-4">
+				<img src="images/chemistry.png" style="width: 175px ">
+			</div>
+	</div>
+	<div class="container-fluid" >
+		<div class="row content" >
+			<div class="col-sm-4" >
+				<div style="height: 50px width:100% background-color:#CEC8C8">dfaeAf</div>
+			</div>
+		</div>
 	</div>
 
 
 
-	
+	<link rel="stylesheet" href="styles.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
 	<script src="js/ajax-utils.js"></script>
-	<link rel="stylesheet" href="styles.css">
+	
 	
 </body>
 </html>
